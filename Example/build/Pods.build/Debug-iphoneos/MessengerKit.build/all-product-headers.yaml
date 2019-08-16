@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/oscar/Desktop/MessengerKit/Example/build/Debug-iphoneos/MessengerKit/MessengerKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MessengerKit-Swift.h",
+          'external-contents': "/Users/oscar/Desktop/MessengerKit/Example/build/Debug-iphoneos/MessengerKit/MessengerKit.framework/Headers/MessengerKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MessengerKit-umbrella.h",
+          'external-contents': "/Users/oscar/Desktop/MessengerKit/Example/Pods/Target Support Files/MessengerKit/MessengerKit-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/oscar/Desktop/MessengerKit/Example/build/Debug-iphoneos/MessengerKit/MessengerKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/oscar/Desktop/MessengerKit/Example/build/Pods.build/Debug-iphoneos/MessengerKit.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
