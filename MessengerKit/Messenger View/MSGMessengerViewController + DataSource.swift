@@ -107,7 +107,7 @@ extension MSGMessengerViewController: UICollectionViewDataSource, UICollectionVi
             cell.style = style
             cell.isLastInSection = isLast
 
-            return cel
+            return cell
 
         case .voice:
 
