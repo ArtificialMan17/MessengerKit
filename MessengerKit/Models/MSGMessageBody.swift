@@ -16,12 +16,13 @@ import UIKit
 /// - video: A video. Provide a thumb and a URL.
 /// - custom: Not used by any of the included templates by default but it can be in a custom cell or style. The body can be any object required.
 public enum MSGMessageBody {
-    
+
     case text(String)
     case emoji(String)
     case image(UIImage)
     case video(UIImage, String)
     case custom(Any)
     case voice(String, String)
-    
+    case call(String, String)
+
 }
